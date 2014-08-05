@@ -70,7 +70,8 @@ class BnmCurs
         $dir = dirname ( __FILE__ ).'/'.$this->folder;
         $this->source = $dir.'/'.'ratesXmlArray'.$this->date.'.xml';
         if(!is_dir($dir)) {
-            if(!mkdir($dir, '0755')) {
+            mkdir($dir, '0755');
+            if(!is_dir($dir)) {
                 throw new BnmException('Error loading xml');
             }
         }
