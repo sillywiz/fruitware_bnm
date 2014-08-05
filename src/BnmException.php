@@ -8,4 +8,7 @@ use Exception;
  * Class BnmException
  * @package Fruitware\Bnm
  */
-class BnmException extends Exception {}
+class BnmException extends Exception
+{
+
+}
