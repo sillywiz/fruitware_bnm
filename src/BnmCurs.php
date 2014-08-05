@@ -132,8 +132,7 @@ class BnmCurs
     {
         try {
             $ratesXmlArray = $this->loadRates($date);
-            if(!$ratesXmlArray->asXML($filename));
-                throw new BnmException('Error saving xml');
+            $ratesXmlArray->asXML($filename);
         } catch(BnmException $e) 
         {
             throw new BnmException('Error saving xml');            
