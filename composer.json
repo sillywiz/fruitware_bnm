@@ -1,5 +1,5 @@
 {
-    "name": "fruitware-bnm",
+    "name": "fruitware_bnm",
 
     "autoload": {
         "psr-4": {
