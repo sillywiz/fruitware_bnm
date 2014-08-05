@@ -39,7 +39,7 @@ class BnmCurs
             $this->date = $cur_date->format('d.m.Y');
         } else if ($date instanceof DateTime) {
             if($cur_date < $date) {
-                throw new BnmException('Date has an invalid format');
+                throw new BnmException('Max date must be current date');
             }
             $this->date = $date->format('d.m.Y');
         } else {
