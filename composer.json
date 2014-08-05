@@ -1,5 +1,15 @@
 {
     "name": "fruitware/bnm",
+    "type": "library",
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Vladimir Scegoli",
+            "email": "marxx87@gmail.com",
+            "homepage": "https://github.com/sillywiz"
+        }
+    ],
 
     "autoload": {
         "psr-4": {
