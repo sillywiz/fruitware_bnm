@@ -1,0 +1,14 @@
+{
+    "name": "fruitware/bnm",
+
+    "autoload": {
+        "psr-4": {
+            "Fruitware\\Bnm\\": "src/"
+        }
+    },
+
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~4.0"
+    }
+}
